@@ -38,7 +38,9 @@ We are running a node server script to communicate with the colab and trigger th
 
 * clone the repo
 * navigate to the server folder firststep/mobile/server
-* run the server server script using "node server.js"
+* run the server script using "server.js"
+* command :  npm i
+* command : pm2 start server.js
 
 The API is running on the node. It has 3 endpoints.
 
@@ -60,6 +62,11 @@ don't need to do any steps to download TFLite models into the project
 explicitly.
 
 gradle file will read the config file and and download the TFlite model and Label file on each request 
+
+once the write function is completed server wiil run the linux bash script the inetiated the build 
+
+after completing the build retrains the apk URL to download in colab and place the apk in the colab directory
+
 
 
 
