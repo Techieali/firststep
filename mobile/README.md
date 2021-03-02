@@ -36,6 +36,10 @@ Node
 
 We are running a node server script to communicate with the colab and trigger the events in the system
 
+* clone the repo
+* navigate to the server folder firststep/mobile/server
+* run the server server script using "node server.js"
+
 The API is running on the node. It has 3 endpoints.
 
 1) start 
