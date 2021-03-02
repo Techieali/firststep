@@ -43,8 +43,9 @@ We are running a node server script to communicate with the colab and trigger th
 The API is running on the node. It has 3 endpoints.
 
 1) start 
-The start endpoint is the post method, it receives both URLs, MODEL_INPUT_SIZE, IS_MODEL_QUANTIZED from the colab. And change the values in the config.txt file. 
-2) Then start the apk building through executing a bash script from node server, also set the status to the building. After completed apk building reset the status to completed
+The start endpoint is the post method, it receives both URLs, MODEL_INPUT_SIZE, IS_MODEL_QUANTIZED from the colab. And change the values in the config.txt file.
+
+2) Then start the apk building through executing a bash script "firststep/mobile/server/script.sh" from node server, also set the status to the building. After completed apk building reset the status to completed
 
 3) status 
 The status endpoint is the get method, it retrains the mode status of model building 
