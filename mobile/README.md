@@ -26,9 +26,9 @@ Then check the status of the apk building with the get api method. If the status
  
 After getting the URL, the script will download and save the apk file to the colab
 
-#server side 
+## server side 
 
-##server system dependencies
+### server system dependencies
 Gradle
 Android sdk 
 Node 
