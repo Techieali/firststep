@@ -70,7 +70,7 @@ app.get("/status", (req, res) => {
 app.get("/getLink", (req, res) => {
   try {
     res.status(200).send({
-      data: "https://1cc62d3adc4c.ngrok.io/download/config.txt",
+      data: "https://1cc62d3adc4c.ngrok.io/download/app-interpreter-debug.apk",
       message: "fetch link",
       error: false
     });
