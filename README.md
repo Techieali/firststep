@@ -1,2 +1,2 @@
 # firststep
-login web app / TFlite mobile Application
+## tow task are placed in respective folders with their readme documentation 
